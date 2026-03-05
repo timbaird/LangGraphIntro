@@ -1,0 +1,9 @@
+# LangGraph — the graph-based framework for building LLM workflows
+langgraph>=0.2.0
+
+# LangChain OpenAI integration — we use this to talk to OpenRouter
+# (OpenRouter uses the same API format as OpenAI, so this package works perfectly)
+langchain-openai>=0.3.0
+
+# python-dotenv — loads your .env file so API keys stay out of your code
+python-dotenv>=1.0.0
